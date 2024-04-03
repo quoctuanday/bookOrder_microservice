@@ -1,0 +1,27 @@
+{
+    "name": "books",
+    "version": "1.0.0",
+    "description": "",
+    "main": "book.js",
+    "scripts": {
+        "start": "nodemon --inspect book.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "express": "^4.19.2",
+        "express-handlebars": "^7.1.2",
+        "method-override": "^3.0.0",
+        "mongoose": "^8.2.4",
+        "mongoose-delete": "^1.0.2",
+        "mongoose-slug-updater": "^3.3.0"
+    },
+    "devDependencies": {
+        "morgan": "^1.10.0",
+        "node-sass": "^9.0.0",
+        "nodemon": "^3.1.0"
+    }
+}
